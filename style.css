@@ -1,0 +1,186 @@
+/* Problems I encountered:
+1. I was unsure how to make multiple circles efficiently
+2. Every time I changed the size of the individual circles,
+the other sizes would change to. Position relative? */
+
+.circles {
+    display: flex;
+    justify-content: center;
+}
+
+.salmon1 {
+    background-color: salmon;
+    position: relative;
+    /* when you put something in absolute position,
+    it removes the element from the static default state */
+    top: 11rem;
+    right: 6.5rem
+}
+
+.circle1 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.salmon2 {
+    background-color: salmon;
+    position: relative;
+    /* when you put something in absolute position,
+    it removes the element from the static default state */
+    top: 14.5em;
+    right: 7.7em
+}
+
+.circle2 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.salmon3 {
+    background-color: salmon;
+    position: relative;
+    /* when you put something in absolute position,
+    it removes the element from the static default state */
+    top: 14em;
+    right: 2.95rem
+}
+
+.circle3 {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+
+.salmon4 {
+    background-color: salmon;
+    position: relative;
+    /* when you put something in absolute position,
+    it removes the element from the static default state */
+    top: 11.6rem;
+    right: 2.75rem
+}
+
+.circle4 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.yellow1 {
+    background-color: gold;
+    position: relative;
+    /* when you put something in absolute position,
+    it removes the element from the static default state */
+    top: 11.4rem;
+    right: 11em;
+}
+
+.circle5 {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+
+.yellow2 {
+    background-color: gold;
+    position: relative;
+    /* when you put something in absolute position,
+    it removes the element from the static default state */
+    top: 17.5rem;
+    right: 14.65rem;
+}
+
+.circle6 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.form {
+    display: flex;
+    width: 79.5%;
+    position: relative;
+    justify-content: space-evenly;
+    justify-content: center;
+}
+
+.top-box {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    margin-top: 3rem;
+    z-index: -10;
+}
+
+.box1 {
+    width: 137.5px;
+    height: 75px;
+    background-color: teal;
+    z-index: -10;
+}
+
+.box2 {
+    width: 137.5px;
+    height: 75px;
+    background-color: teal;
+    z-index: -10;
+}
+
+.box3 {
+    width: 137.5px;
+    height: 75px;
+    background-color: teal;
+    z-index: -10;
+}
+
+.bottom-box {
+    margin: 0 auto;
+    display: flex;
+    margin-top: 9px;
+    width: 437px;
+    height: 200px;
+    background-color: teal;
+    /* border: solid 2px hotpink; */
+}
+
+.triangles {
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    position: relative;
+    ;
+}
+
+.darkgreen { 
+    background-color: darkgreen;
+    position: absolute;
+    right: 2.2rem;
+}
+
+.triangle1 {
+    width: 12rem;
+    height: 14rem;
+    clip-path: polygon(50% 0, 100% 100%, 0 100%);
+}
+
+.lightgreen {
+    background-color: #cee677;
+    position: absolute;
+    right: 0;
+}
+
+.triangle2 {
+    width: 9rem;
+    height: 8.5rem;
+    clip-path: polygon(50% 0, 100% 100%, 0 100%);
+} 
+
+.green-box {
+    background-color: #c0d66f;
+    position: relative;
+    margin-bottom: -1rem;
+    width: 100%;
+    height: 5%;
+}
